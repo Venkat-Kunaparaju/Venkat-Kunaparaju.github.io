@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://v-enkatk.github.io/al-folio/sitemap.xml
+Sitemap: https://Venkat-Kunaparaju.github.io/sitemap.xml
