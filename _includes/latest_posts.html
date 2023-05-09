@@ -1,5 +1,6 @@
 
           <div class="news">
+            <p style="color:white;">
             {% if site.latest_posts != blank -%}
             {%- assign latest_posts_size = site.posts | size -%}
             <div class="table-responsive" {% if site.latest_posts.scrollable and latest_posts_size > 3 %}style="max-height: 60vw"{% endif %}>
@@ -19,6 +20,7 @@
                 </tr>
               {%- endfor %}
               </table>
+              </p>
             </div>
           {%- else -%}
             <p>No posts so far...</p>
