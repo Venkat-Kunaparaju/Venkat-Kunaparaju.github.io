@@ -33,6 +33,19 @@
   display: none;
 }
 
+html[data-theme=dark] .fa-sun {
+  display: none;
+}
+html[data-theme=dark] .fa-moon {
+  display: none;
+}
+html[data-theme=dark] .repo-img-light {
+  display: none;
+}
+html[data-theme=dark] .repo-img-dark {
+  display: none;
+}
+
 /******************************************************************************
  * Content
  ******************************************************************************/
