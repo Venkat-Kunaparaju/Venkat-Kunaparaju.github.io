@@ -30,7 +30,7 @@
   display: none;
 }
 :root .repo-img-dark {
-  display: none;
+  display: block;
 }
 
 html[data-theme=dark] {
@@ -58,7 +58,7 @@ html[data-theme=dark] .repo-img-light {
   display: none;
 }
 html[data-theme=dark] .repo-img-dark {
-  display: none;
+  display: block;
 }
 
 /******************************************************************************
