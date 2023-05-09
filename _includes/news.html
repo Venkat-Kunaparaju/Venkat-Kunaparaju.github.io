@@ -12,17 +12,18 @@
               {% for item in news limit: news_limit %}
                 <tr>
                   <p style="color:white;">
-                  <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+                    <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+                  </p>
                   <td>
                     {% if item.inline -%}
-                    
+                      <p style="color:white;">
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                    
+                      </p>
                     {%- else -%}
                       <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
                     {%- endif %}
                   </td>
-                  </p>
+                  
                 </tr>
               {%- endfor %}
               </table>
