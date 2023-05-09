@@ -11,7 +11,7 @@
               {% endif %}
               {% for item in news limit: news_limit %}
                 <tr>
-                  <p style="color:white;"></p>
+                  <p style="color:white;">
                   <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
                   <td>
                     {% if item.inline -%}
